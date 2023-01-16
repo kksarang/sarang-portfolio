@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarang - Full Stack Developer</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="https://www.sarangrajan.in/" class="logo">Sarang</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+         
+
+          <li>
+            <a href="https://kksarang.github.io/sarang-resume/" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="https://kksarang.github.io/kksarang/" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+        
+
+         
+         
+
+          <li>
+            <a href="https://sarangr.carrd.co/" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
+            <img src="./assets/images/hero-banner.jpg" width="640" height="840" alt="Bernard Smith" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Sarang Rajan</p>
+
+            <h1 class="h1 hero-title">Full Stack App & Web Developer</h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Application Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Website Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Api Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="exp-list">
+
+              <li class="list-item">
+                <strong class="strong">3+</strong>
+
+                <span class="span">
+                  Years of<br>
+                  Experience
+                </span>
+              </li>
+
+              <li class="list-item">
+                <strong class="strong">30+</strong>
+
+                <span class="span">
+                  Happy<br>
+                  Customers
+                </span>
+              </li>
+
+            </ul>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">Selected Works</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-1.jpg" width="600" height="675" loading="lazy" alt="Magic Art"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://kksarang.github.io/sarang-resume/" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Magic Art</h3>
+
+                  <p class="card-text">Vimeo</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-2.jpg" width="600" height="675" loading="lazy" alt="Bona Green"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://www.sarangrajan.in/home" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Bona Green</h3>
+
+                  <p class="card-text">Youtube</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-3.jpg" width="600" height="675" loading="lazy" alt="Leo Dandora"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://kksarang.github.io/sarang-musicplayer/" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Leo Dandora</h3>
+
+                  <p class="card-text">Soundcloud</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-4.jpg" width="600" height="675" loading="lazy" alt="Folio Grasia"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Folio Grasia</h3>
+
+                  <p class="card-text">Detail</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-5.jpg" width="600" height="675" loading="lazy" alt="Viva Mercury"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Viva Mercury</h3>
+
+                  <p class="card-text">Image</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/portfolio-6.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Santa Onera</h3>
+
+                  <p class="card-text">Image</p>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+
+
+
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing" id="price" aria-label="price">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">Pricing</p>
+
+            <h2 class="h2 section-title">Service Prices</h2>
+
+          
+
+          </div>
+
+          <ul class="pricing-list">
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="logo-wordpress" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">WordPress Development</h3>
+
+                <data class="card-price" value="500">$500</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="logo-html5" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">HTML CSS Development</h3>
+
+                <data class="card-price" value="400">$400</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="reader" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">MOBILE APPLICATION DEVELOPMENT</h3>
+
+                <data class="card-price" value="300">$300</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="qr-code" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">BACKEND DEVELOPMENT</h3>
+
+                <data class="card-price" value="200">$200</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="image" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">CROSS PLATFORM APPLICATION DEVELOPMENT</h3>
+
+                <data class="card-price" value="100">$100</data>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWS
+      -->
+
+      <section class="section news" id="news" aria-label="news">
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="section-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <p class="section-text">
+              I'm a Full Stack Developer from Panoor, Kerala, working in Mobile Application development. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+            </p>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link">
+                  Anand Bhavan (p/o) Panoor, Kannur, Kerala
+                </address>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:+919947435429" class="contact-link">+91 9947435429</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:kksarangrajan@gmail.com" class="contact-link">kksarangrajan@gmail.com</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+
+                <a href="https://www.sarangrajan.in/" class="contact-link">www.sarangrajan.in</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <form action="" class="contact-form">
+
+            <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+
+            <input type="email" name="email_address" aria-label="email" placeholder="Email" required
+              class="input-field">
+
+            <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+
+            <button type="submit" class="submit-btn">
+              <span class="span">Submit</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+</section class="section contact" id="contact" aria-label="contact">
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022. All rights reserved by <a href="#" class="copyright-link">sarang rajan.</a>
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/sarang.rajan.56" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/sarangrajan3" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/sarang_rajan/?hl=en" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+       
+      
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
